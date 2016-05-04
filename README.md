@@ -26,10 +26,11 @@ Once TCPClient (Player 2) has started, the game starts and ends automatically as
 	Game finished!!
 
 In this particular example, TCPServer (Player 1) wins. Below are the steps of how Player 1 won.
-1. Player 2 requested Player 1 to start the game
-2. Player 1 generated a random whole number sends the number 83 to Player 2
-3. Player 2 plays 1 and returns 28 to Player 1 (Calculation: 83 + 1 = 84 and 84 / 3 = 28)
-4. Player 1 plays -1 and returns 9 to Player 2 (Calculation: 28 + -1 = 27 and 27 / 3 = 9)
-5. Player 2 plays 0 and returns 3 to Player 1 (Calculation: 9 + 0 = 9 and 9 / 3 = 3)
-6. Player 1 plays 0 and wins the game (Calculation: 3 + 0 = 3 and 3 / 3 = 1)
+
+	1. Player 2 requested Player 1 to start the game
+	2. Player 1 generated a random whole number sends the number 83 to Player 2
+	3. Player 2 plays 1 and returns 28 to Player 1 (Calculation: 83 + 1 = 84 and 84 / 3 = 28)
+	4. Player 1 plays -1 and returns 9 to Player 2 (Calculation: 28 + -1 = 27 and 27 / 3 = 9)
+	5. Player 2 plays 0 and returns 3 to Player 1 (Calculation: 9 + 0 = 9 and 9 / 3 = 3)
+	6. Player 1 plays 0 and wins the game (Calculation: 3 + 0 = 3 and 3 / 3 = 1)
  
